@@ -1,0 +1,88 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="40%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="heroGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="buttonGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="buttonGreen" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020617" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <circle cx="130" cy="120" r="180" fill="#8b5cf6" opacity="0.12"/>
+  <circle cx="1060" cy="760" r="180" fill="#22c55e" opacity="0.10"/>
+
+  <rect x="70" y="45" width="1060" height="810" rx="26" fill="rgba(15,23,42,0.15)" stroke="rgba(148,163,184,0.25)"/>
+
+  <rect x="105" y="80" width="990" height="150" rx="22" fill="url(#heroGrad)" stroke="rgba(148,163,184,0.25)" filter="url(#shadow)"/>
+  <rect x="135" y="105" width="130" height="34" rx="17" fill="rgba(167,139,250,0.18)" stroke="rgba(196,181,253,0.35)"/>
+  <text x="155" y="127" font-size="14" font-family="Arial, sans-serif" fill="#ddd6fe" font-weight="700" letter-spacing="2">LIVE QUIZ</text>
+  <text x="135" y="180" font-size="36" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="800">🎯 GK Quiz Arena</text>
+  <text x="135" y="206" font-size="18" font-family="Arial, sans-serif" fill="#CBD5E1">Play, compete, and learn with a smarter, smoother quiz experience.</text>
+
+  <rect x="105" y="260" width="490" height="280" rx="20" fill="rgba(15,23,42,0.76)" stroke="rgba(148,163,184,0.25)" filter="url(#shadow)"/>
+  <text x="140" y="305" font-size="26" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">Join or Create a Quiz Room</text>
+
+  <rect x="140" y="330" width="420" height="42" rx="10" fill="rgba(15,23,42,0.8)" stroke="rgba(148,163,184,0.25)"/>
+  <text x="160" y="357" font-size="17" font-family="Arial, sans-serif" fill="#94A3B8">अपना नाम दर्ज करें (Your Name):</text>
+
+  <rect x="140" y="395" width="200" height="50" rx="12" fill="url(#buttonGrad)"/>
+  <text x="185" y="428" font-size="18" font-family="Arial, sans-serif" fill="#ffffff" font-weight="700">Create Room</text>
+
+  <rect x="360" y="395" width="200" height="50" rx="12" fill="rgba(15,23,42,0.8)" stroke="rgba(148,163,184,0.25)"/>
+  <text x="425" y="428" font-size="18" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">Join Room</text>
+
+  <rect x="105" y="570" width="490" height="220" rx="18" fill="rgba(15,23,42,0.76)" stroke="rgba(148,163,184,0.25)" filter="url(#shadow)"/>
+  <rect x="125" y="590" width="130" height="30" rx="15" fill="rgba(96,165,250,0.12)" stroke="rgba(96,165,250,0.26)"/>
+  <text x="145" y="611" font-size="13" font-family="Arial, sans-serif" fill="#BFDBFE" font-weight="700" letter-spacing="2">ROOM ACTIVE</text>
+  <text x="125" y="645" font-size="22" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">रूम कोड: <tspan fill="#A5B4FC">457291</tspan></text>
+  <text x="125" y="678" font-size="20" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">खिलाड़ी: <tspan fill="#86EFAC">Raj</tspan></text>
+
+  <rect x="620" y="260" width="470" height="530" rx="20" fill="rgba(15,23,42,0.82)" stroke="rgba(148,163,184,0.25)" filter="url(#shadow)"/>
+
+  <rect x="645" y="285" width="100" height="30" rx="15" fill="rgba(96,165,250,0.12)" stroke="rgba(96,165,250,0.26)"/>
+  <text x="667" y="306" font-size="12" font-family="Arial, sans-serif" fill="#BFDBFE" font-weight="700" letter-spacing="2">QUESTION 1</text>
+  <text x="645" y="356" font-size="22" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">भारत का संविधान कब लागू हुआ था?</text>
+
+  <rect x="645" y="385" width="420" height="54" rx="12" fill="rgba(15,23,42,0.72)" stroke="rgba(148,163,184,0.12)"/>
+  <circle cx="670" cy="412" r="8" fill="#94A3B8"/>
+  <text x="690" y="418" font-size="18" font-family="Arial, sans-serif" fill="#E2E8F0">15 अगस्त 1947</text>
+
+  <rect x="645" y="450" width="420" height="54" rx="12" fill="rgba(15,23,42,0.72)" stroke="rgba(148,163,184,0.12)"/>
+  <circle cx="670" cy="477" r="8" fill="#94A3B8"/>
+  <text x="690" y="483" font-size="18" font-family="Arial, sans-serif" fill="#E2E8F0">26 जनवरी 1950</text>
+
+  <rect x="645" y="515" width="420" height="54" rx="12" fill="rgba(15,23,42,0.72)" stroke="rgba(148,163,184,0.12)"/>
+  <circle cx="670" cy="542" r="8" fill="#94A3B8"/>
+  <text x="690" y="548" font-size="18" font-family="Arial, sans-serif" fill="#E2E8F0">26 नवंबर 1949</text>
+
+  <rect x="645" y="580" width="420" height="54" rx="12" fill="rgba(15,23,42,0.72)" stroke="rgba(148,163,184,0.12)"/>
+  <circle cx="670" cy="607" r="8" fill="#94A3B8"/>
+  <text x="690" y="613" font-size="18" font-family="Arial, sans-serif" fill="#E2E8F0">2 अक्टूबर 1950</text>
+
+  <rect x="645" y="660" width="200" height="52" rx="12" fill="url(#buttonGreen)"/>
+  <text x="687" y="693" font-size="19" font-family="Arial, sans-serif" fill="#ffffff" font-weight="700">Submit Answer</text>
+
+  <rect x="860" y="660" width="205" height="52" rx="12" fill="rgba(15,23,42,0.7)" stroke="rgba(148,163,184,0.22)"/>
+  <text x="925" y="693" font-size="19" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">Reset</text>
+
+  <rect x="125" y="615" width="430" height="120" rx="14" fill="rgba(2,6,23,0.45)" stroke="rgba(148,163,184,0.2)"/>
+  <text x="150" y="650" font-size="20" font-family="Arial, sans-serif" fill="#F8FAFC" font-weight="700">🏆 LIVE SCOREBOARD</text>
+  <text x="150" y="690" font-size="20" font-family="Arial, sans-serif" fill="#E2E8F0">• Raj: 2 अंक</text>
+  <text x="150" y="720" font-size="20" font-family="Arial, sans-serif" fill="#E2E8F0">• Meena: 1 अंक</text>
+</svg>
